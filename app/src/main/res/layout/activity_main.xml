@@ -19,10 +19,21 @@
 		android:layout_height="wrap_content">
 
 		<Button
-			android:layout_width="wrap_content"
+			style="?android:attr/buttonBarButtonStyle"
+			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
-			android:text="Transform to DNA"
+			android:text="转为DNA序列"
 			android:id="@+id/toDNA"/>
+
+		<!--
+		<Button
+			android:id="@+id/tostr"
+			android:layout_width="0dp"
+			android:layout_weight="1"
+			style="?android:attr/buttonBarButtonStyle"
+			android:layout_height="wrap_content"
+			android:text="转为字符串"/>
+		-->
 
 	</LinearLayout>
 
